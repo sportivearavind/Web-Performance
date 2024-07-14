@@ -1,0 +1,14 @@
+body{
+    background-color: #131316;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    display: grid;
+    /* combines both justify-content: center ; and align-items:center */
+    place-items: center;  
+    align-content: center;
+    min-height: 100vh;
+}
